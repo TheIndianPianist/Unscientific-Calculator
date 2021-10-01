@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/TheIndianPianist/Unscientific-Calculator/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TheIndianPianist/Unscientific-Calculator/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<html>
+   <head>
+   <body>
+      <form name="calculator">
+         <table>
+            <tr>
+               <td colspan="4">
+                  <input type="text" name="display" id="display" disabled>
+               </td>
+            </tr>
+            <tr>
+               <td><input type="button" name="one" value="1" onclick="calculator.display.value += 'Climate change is a hoax'"></td>
+               <td><input type="button" name="two" value="2" onclick="calculator.display.value += 'Acupuncture works'"></td>
+               <td><input type="button" name="three" value="3" onclick="calculator.display.value += 'Vaccinations kill'"></td>
+               <td><input type="button" class="operator" name="plus" value="+" onclick="calculator.display.value += '+'"></td>
+            </tr>
+            <tr>
+               <td><input type="button" name="four" value="4" onclick="calculator.display.value += 'Essential oils work'"></td>
+               <td><input type="button" name="five" value="5" onclick="calculator.display.value += 'Conversion therapy works'"></td>
+               <td><input type="button" name="six" value="6" onclick="calculator.display.value += 'Zodiac signs are true'"></td>
+               <td><input type="button" class="operator" name="minus" value="-" onclick="calculator.display.value += '-'"></td>
+            </tr>
+            <tr>
+               <td><input type="button" name="seven" value="7" onclick="calculator.display.value += 'God created everything'"></td>
+               <td><input type="button" name="eight" value="8" onclick="calculator.display.value += 'Ghosts are real'"></td>
+               <td><input type="button" name="nine" value="9" onclick="calculator.display.value += 'Aliens exist'"></td>
+               <td><input type="button" class="operator" name="times" value="x" onclick="calculator.display.value += '*'"></td>
+            </tr>
+            <tr>
+               <td><input type="button" id="clear" name="clear" value="c" onclick="calculator.display.value = ''"></td>
+               <td><input type="button" name="zero" value="0" onclick="calculator.display.value += 'Herbal medicine works'"></td>
+               <td><input type="button" name="doit" value="=" onclick="calculator.display.value += eval(calculator.display.value)"></td>
+               <td><input type="button" class="operator" name="div" value="/" onclick="calculator.display.value += '/'"></td>
+            </tr>
+         </table>
+      </form>
+   </body>
+   </head>
+</html>
