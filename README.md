@@ -3,6 +3,6 @@ In the 788th B3ta Newsletter (https://b3ta.com/newsletter/issue788/), they asked
 
 So I made one.
 
-Update: My calculator did not get into the next newsletter :(
+Update: My calculator did not get into the 789th newsletter :(
 
 
