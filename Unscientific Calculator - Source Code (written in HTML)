@@ -21,7 +21,7 @@
                <td><input type="button" class="operator" name="minus" value="-" onclick="calculator.display.value += '-'"></td>
             </tr>
             <tr>
-               <td><input type="button" name="seven" value="7" onclick="calculator.display.value += 'God created everything'"></td>
+               <td><input type="button" name="seven" value="7" onclick="calculator.display.value += 'Marxists have infiltrated universities!'"></td>
                <td><input type="button" name="eight" value="8" onclick="calculator.display.value += 'Ghosts are real'"></td>
                <td><input type="button" name="nine" value="9" onclick="calculator.display.value += 'Aliens exist'"></td>
                <td><input type="button" class="operator" name="times" value="x" onclick="calculator.display.value += '*'"></td>
