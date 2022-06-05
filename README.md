@@ -3,6 +3,4 @@ In the 788th B3ta Newsletter (https://b3ta.com/newsletter/issue788/), they asked
 
 So I made one. The HTML code was taken from https://jsfiddle.net/ndubuisi/fbhckjwe/ and I simply changed it so that clicking a number instead returns "Climate change is a hoax" or something similar.
 
-Update: My calculator did not get into the 789th newsletter :(
-
 
